@@ -1,4 +1,4 @@
-module github.com/zerodha/kite-mcp-server/kc/scheduler
+module github.com/algo2go/kite-mcp-scheduler
 
 go 1.25.0
 
@@ -17,5 +17,3 @@ require (
 )
 
 require github.com/stretchr/testify v1.10.0 // indirect
-
-replace github.com/algo2go/kite-mcp-isttz => ../isttz
